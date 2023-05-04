@@ -1,0 +1,144 @@
+*{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Tela Inicial */
+.background{
+  background-image: url(./img/background-1.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.email{
+  padding: 8px 40px;
+  border-radius: 15px  0px 0px 15px ;
+  border: none;
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 350px;
+}
+
+.submit{
+  padding: 8px 12px;
+  border: none;
+  border-radius: 0px 15px 15px 0px;
+  position: absolute;
+  margin-top: 350px;
+  margin-left: 325px;
+  background-color: #FB6B90;
+  color: white;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 45px;
+  
+}
+
+.main{
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50);
+}
+
+/* Tela 2 */
+.tela2{
+  background-image: url(./img/background-2.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+/* Tela 3 */
+.tela3{
+  background-image: url(./img/background-3.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+
+.btdesign{
+  padding: 5px 30px;
+  border-radius: 17px;
+  background-color: #FFDFE7;
+  font-size: 15px;
+  color: black;
+  position: absolute;
+  margin-top: 280px;
+  margin-left: 115px;
+  border: none;
+}
+
+h4{
+  margin-top: 150px;
+  margin-left: 400px;
+  position: absolute;
+  text-align: left;
+  font-size: 13px;
+  color: #a5304d;
+}
+
+.btman{
+  padding: 5px 30px;
+  border-radius: 20px;
+  background-color: #FFDFE7;
+  font-size: 15px;
+  color: black;
+  position: absolute;
+  margin-top: 400px;
+  margin-left: 115px;
+  border: none;
+}
+
+h5{
+  margin-top: 320px;
+  margin-left: 400px;
+  position: absolute;
+  text-align: left;
+  font-size: 13px;
+  color: #a5304d;
+}
+
+/* Tela 4 */
+.tela4{
+  background-color: black;
+  color: #FFDFE7;
+  background-position: center;
+  height: 38vh;
+}
+
+.pergunta{
+  margin-top: 20px;
+}
+
+.btprincipal{
+  padding: 5px 30px;
+  border-radius: 17px;
+  background-color: #FFDFE7;
+  font-size: 15px;
+  color: black;
+  position: absolute;
+  border: none;
+  margin-top: -380px;
+  margin-left: -100px;
+}
+
+.button{
+  margin-top: 400px;
+  margin-left: 110px;
+}
+
+.likep{
+  color: #FFDFE7;
+  position: absolute;
+  margin-top: -345px;
+  margin-left: 40%;
+}
+
